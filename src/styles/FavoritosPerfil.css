@@ -1,0 +1,49 @@
+.favoritos-perfil {
+  min-height: calc(100vh - 80px);
+  padding: 40px 6%;
+  background-color: #fff;
+  color: #2939d8;
+}
+
+.favoritos-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.favoritos-container h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.favoritos-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(220px, 1fr)
+  );
+  gap: 25px;
+}
+
+.favoritos-mensagem {
+  color: #aaa;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .favoritos-perfil {
+    padding: 25px 5%;
+  }
+
+  .favoritos-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .favoritos-grid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(150px, 1fr)
+    );
+    gap: 15px;
+  }
+}

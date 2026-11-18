@@ -1,0 +1,24 @@
+/* PÁGINA DE PERFIL */
+
+.profile-page {
+  min-height: 100vh;
+  background: #f4f9fc;
+}
+
+/* CONTEÚDO */
+
+.profile-content {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 35px 25px 60px;
+}
+
+/* MENSAGENS */
+
+.profile-message,
+.profile-empty {
+  text-align: center;
+  color: #2939d8;
+  margin: 30px;
+}

@@ -1,0 +1,227 @@
+/* PÁGINA DO JOGO */
+
+.game-page {
+  min-height: 100vh;
+  background-color: #f4f9fc;
+  color: #3158b8;
+}
+
+/* CONTEÚDO */
+
+.game-content {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+/* IMAGEM DO JOGO */
+
+.game-banner {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  margin: 0 0 20px;
+}
+
+.game-banner img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.game-banner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+  background: linear-gradient(
+    to bottom,
+    rgba(244, 249, 252, 0),
+    rgba(244, 249, 252, 0.85),
+    #f4f9fc
+  );
+
+  pointer-events: none;
+}
+
+
+/* INFORMAÇÕES */
+
+.game-info {
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  max-width: 800px;
+  margin: -45px auto 0;
+  text-align: center;
+}
+
+.game-info h1 {
+  margin: 0;
+  color: #3158b8;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* TÍTULO + FAVORITO */
+
+.game-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.game-title-row h1 {
+  margin: 0;
+  color: #3158b8;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.favorite-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #3158b8;
+  font-family: Arial, sans-serif;
+  font-size: 29px;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.favorite-button:hover {
+  transform: scale(1.1);
+}
+
+.favorite-button.active {
+  color: #e53935;
+}
+
+.favorite-button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+/* INFORMAÇÕES EM PILLS */
+
+.game-info-tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.game-info-tags span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 7px 18px;
+  background-color: #f8fbfd;
+  border: 2px solid #b8cce2;
+  border-radius: 20px;
+  color: #444;
+  font-size: 13px;
+}
+
+.game-info-tags span:nth-child(2) {
+  color: #3158b8;
+  font-weight: 600;
+}
+
+/* SINOPSE */
+
+.game-summary {
+  max-width: 750px;
+  margin: 20px auto 0;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* ÁREA DE REVIEW */
+
+.game-review-section {
+  width: 70%;
+  max-width: 800px;
+  margin: 35px auto 0;
+}
+
+.game-review-section h2 {
+  margin-bottom: 15px;
+  color: #3158b8;
+  font-size: 18px;
+}
+
+/* MENSAGENS */
+
+.game-message {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #f4f9fc;
+  color: #3158b8;
+  font-size: 18px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+  .game-info,
+  .game-review-section {
+    width: 90%;
+  }
+
+  .game-info {
+    margin-top: -30px;
+  }
+
+  .game-info h1,
+  .game-title-row h1 {
+    font-size: 26px;
+  }
+
+  .favorite-button {
+    font-size: 25px;
+
+    width: 30px;
+    height: 30px;
+  }
+
+  .game-title-row {
+    gap: 10px;
+  }
+
+  .game-info-tags span {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .game-banner::after {
+    height: 80px;
+  }
+}

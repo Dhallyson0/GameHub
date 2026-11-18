@@ -1,0 +1,55 @@
+/* PÁGINA HOME */
+
+.home-page {
+  min-height: 100vh;
+  background: #f4f9fc;
+}
+
+
+/* CONTEÚDO */
+
+.home-content {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 25px 50px;
+}
+
+/* TÍTULO */
+
+.home-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-title h1 {
+  margin: 0;
+  color: #2939d8;
+  font-size: 28px;
+}
+
+.home-title p {
+  margin-top: 5px;
+  color: #2939d8;
+  font-size: 18px;
+}
+
+/* GRID DE JOGOS*/
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+
+/* MENSAGENS */
+
+.home-message {
+  text-align: center;
+}
+
+.home-error {
+  text-align: center;
+  color: #d62828;
+}

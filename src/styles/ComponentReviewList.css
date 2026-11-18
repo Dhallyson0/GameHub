@@ -1,0 +1,80 @@
+/* LISTA DE REVIEWS */
+
+.review-list {
+  width: 70%;
+  max-width: 800px;
+
+  margin: 50px auto 0;
+}
+
+.review-list h2 {
+  margin-bottom: 20px;
+  color: #3158b8;
+  font-size: 20px;
+}
+
+.review-empty {
+  color: #777;
+}
+
+
+/* CARD DA REVIEW */
+
+.review-card {
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #d4e1ed;
+  border-radius: 12px;
+}
+
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.review-user img,
+.review-user-default {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-user-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dce8f5;
+  font-size: 20px;
+}
+
+.review-user h3 {
+  margin: 0 0 4px;
+  color: #3158b8;
+  font-size: 15px;
+}
+
+.review-card-stars {
+  color: #f6c945;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.review-card p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+  .review-list {
+    width: 90%;
+  }
+}

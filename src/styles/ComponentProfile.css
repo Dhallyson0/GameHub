@@ -1,0 +1,112 @@
+/* CABEÇALHO DO PERFIL*/
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+/* FOTO */
+
+.profile-photo-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #dce8f2;
+}
+
+.profile-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+}
+
+/* BOTÃO EDITAR */
+
+.profile-edit {
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  background: #176ff0;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*  NOME E BIO */
+
+.profile-header h2 {
+  margin: 5px 0;
+  color: #555;
+  font-size: 18px;
+}
+
+.profile-bio {
+  max-width: 500px;
+  margin: 5px 0;
+  color: #777;
+  font-size: 15px;
+}
+
+/* SEÇÕES */
+
+.profile-section {
+  margin-bottom: 40px;
+}
+
+.profile-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-section-title h2 {
+  margin: 0;
+  color: #2939d8;
+  font-size: 18px;
+}
+
+.profile-see-more {
+  border: none;
+  background: transparent;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.profile-see-more:hover {
+  color: #2939d8;
+}
+
+/* LINHA */
+
+.profile-divider {
+  width: 100%;
+  height: 2px;
+  margin: 8px 0 20px;
+  background: #c5d1dd;
+}
+
+/* CARDS */
+
+.profile-games {
+  display: grid;
+  grid-template-columns:
+    repeat(5, 1fr);
+  gap: 20px;
+}

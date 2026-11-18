@@ -1,0 +1,66 @@
+/* PÁGINA DE USUÁRIOS */
+
+.usuarios-page {
+  min-height: 100vh;
+  background: #f8fdff;
+}
+
+.usuarios-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+.usuarios-title {
+  margin: 0 0 70px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2d3fc4;
+}
+
+.usuarios-message {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3fc4;
+}
+
+.usuarios-error {
+  color: #c0392b;
+}
+
+/* GRADE */
+
+.usuarios-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 108px);
+  justify-content: center;
+  gap: 48px 49px;
+}
+
+@media (max-width: 860px) {
+  .usuarios-grid {
+    grid-template-columns: repeat(4, 108px);
+  }
+}
+
+@media (max-width: 680px) {
+  .usuarios-grid {
+    grid-template-columns: repeat(3, 108px);
+    gap: 40px 32px;
+  }
+}
+
+@media (max-width: 460px) {
+  .usuarios-title {
+    margin-bottom: 44px;
+    font-size: 1.1rem;
+  }
+
+  .usuarios-grid {
+    grid-template-columns: repeat(2, 108px);
+    gap: 36px 28px;
+  }
+}
