@@ -707,38 +707,7 @@ dist/
 
 ---
 
-## 18. Organização do código
-
-O projeto foi dividido de acordo com a responsabilidade de cada parte.
-
-```text
-components/
-    Componentes reutilizáveis da interface
-
-pages/
-    Páginas da aplicação
-
-hooks/
-    Lógica reutilizável
-
-services/
-    Comunicação com Firebase e outros serviços
-
-context/
-    Estados compartilhados
-
-styles/
-    Arquivos CSS
-
-server.js
-    Backend e integração com APIs externas
-```
-
-Essa divisão facilita a manutenção do projeto, permite reutilizar código e evita concentrar toda a lógica em um único arquivo.
-
----
-
-## 19. Projeto acadêmico
+## 18. Projeto acadêmico
 
 O GameHub foi desenvolvido como um projeto acadêmico com o objetivo de aplicar conhecimentos de desenvolvimento web na prática.
 
