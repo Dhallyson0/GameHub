@@ -11,6 +11,36 @@ O **GameHub** é uma plataforma web para descoberta, pesquisa e avaliação de j
 
 O projeto utiliza React e TypeScript no frontend, Node.js e Express no backend, Firebase para autenticação e armazenamento de dados e a API IGDB para obter informações sobre jogos.
 
+## Telas da aplicação
+
+### Home
+
+![Home](public/screenshots/home.png)
+
+### Autenticação
+
+![Cadastro](public/screenshots/cadastro.png)
+
+### Jogos
+
+![Página do jogo](public/screenshots/jogo.png)
+
+### Usuários
+
+![Lista de usuários](public/screenshots/usuarios.png)
+
+### Perfil
+
+![Perfil](public/screenshots/perfil.png)
+
+### Favoritos
+
+![Favoritos](public/screenshots/favoritos.png)
+
+### Reviews
+
+![Reviews](public/screenshots/reviews.png)
+
 ---
 
 ## 1. Sobre o projeto
@@ -677,41 +707,7 @@ dist/
 
 ---
 
-## 18. Conceitos aplicados
-
-Durante o desenvolvimento do GameHub foram utilizados diversos conceitos de desenvolvimento web:
-
-- React.
-- TypeScript.
-- Componentização.
-- Hooks.
-- Hooks personalizados.
-- Context API.
-- React Router.
-- Estados.
-- Requisições HTTP.
-- APIs REST.
-- JSON.
-- `fetch`.
-- `async/await`.
-- Tratamento de erros.
-- Firebase Authentication.
-- Firebase Firestore.
-- Firebase Admin SDK.
-- Node.js.
-- Express.
-- Middleware.
-- CORS.
-- Variáveis de ambiente.
-- Integração com APIs externas.
-- Filtros.
-- Pesquisa de dados.
-- Autenticação de usuários.
-- Armazenamento de dados.
-
----
-
-## 19. Organização do código
+## 18. Organização do código
 
 O projeto foi dividido de acordo com a responsabilidade de cada parte.
 
@@ -742,7 +738,7 @@ Essa divisão facilita a manutenção do projeto, permite reutilizar código e e
 
 ---
 
-## 20. Projeto acadêmico
+## 19. Projeto acadêmico
 
 O GameHub foi desenvolvido como um projeto acadêmico com o objetivo de aplicar conhecimentos de desenvolvimento web na prática.
 
