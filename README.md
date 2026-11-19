@@ -8,14 +8,13 @@ O projeto utiliza **React, TypeScript, Node.js, Express, Firebase e IGDB**.
 
 ## Desenvolvedores
 
-| Desenvolvedor | Matrícula |
-|---|---|
-| Dhallyson Breno Carvalho da Silva | 01797597 |
-| Joanne Alexandrino Floriano de Oliveira | 01800675 |
-| Raphael Pereira da Silva | 01797315 |
-| Victor Davi Costa Amaral e Sousa | 01800467 |
+* Dhallyson Breno Carvalho da Silva - 01797597
 
-As identificações acima seguem o README atual do projeto.
+* Joanne Alexandrino Floriano de Oliveira - 01800675
+
+* Raphael Pereira da Silva - 01797315
+
+* Victor Davi Costa Amaral e Sousa - 01800467
 
 ---
 
@@ -206,8 +205,6 @@ A aplicação também possui filtros por gêneros como Ação, Terror, Aventura,
 ### Armazenamento
 
 - Cloudinary
-
-Essas são as tecnologias já descritas no README atual do projeto.
 
 ---
 
