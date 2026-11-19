@@ -370,7 +370,7 @@ Adicione as credenciais necessárias no arquivo `.env`.
 ### 4. Iniciar o backend
 
 ```bash
-node server.js
+npm run server
 ```
 
 ### 5. Iniciar o frontend
